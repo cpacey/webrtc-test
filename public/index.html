@@ -7,7 +7,12 @@
     <source src="chrome.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
-  <button onclick="playPause()">Go</button>
+  <br/>
+  <audio id="localAudio" autoplay></audio>
+  <audio id="remoteAudio" autoplay></audio>
+  <br>/
+  <button onclick="playPause()">Play/Pause</button>
+  <button onclick="start( true )">WebRTC</button>
   <script type="text/javascript" src="index.js"></script>
 </body>
 </html>
